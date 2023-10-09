@@ -13,15 +13,15 @@ const emails = [
   "bifur@gmail.com",
   "bofur@hotmail.com",
   "bombur@gmail.com"
-]
-console.log(emails)
+];
+console.log(emails);
 
 // chiedo l'email dell'utente
 const userEmail = prompt('Inserisci la tua email:');
 
 // confronto dell'email inserita dall'utente per garantire o meno l'accesso
 for (let i = 0; i < emails.length; i++) {
-  currentEmail = emails[i];
+  let currentEmail = emails[i];
 
   if (userEmail === currentEmail) {
     console.log('Accesso approvato');
