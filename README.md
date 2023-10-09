@@ -7,3 +7,15 @@
     - allora stampa "accesso consentito"
   - ALTRIMENTI:
     - stampa "accesso negato"
+
+
+## Generare un numero random da 1 a 6, sia per il giocatore sia per il computer; Stabilire il vincitore, in base a chi fa il punteggio più alto
+
+- memorizzare in due variabili distinte 1 numero generato automaticamente da 1 a 6
+
+- SE il numero dell'utente è più alto di quello del computer:
+  - stampa "hai vinto"
+- ALTRIMENTI SE sono uguali:
+  - stampa "hai pareggiato"
+- ALTRIMENTI:
+  - stampa "hai perso"
