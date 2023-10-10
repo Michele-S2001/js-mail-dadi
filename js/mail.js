@@ -17,7 +17,7 @@ const emails = [
 console.log(emails.length);
 
 // chiedo l'email dell'utente
-const userEmail = prompt('Inserisci la tua email:');
+const userEmail = (prompt('Inserisci la tua email:')).toLowerCase();
 
 // confronto dell'email inserita dall'utente per garantire o meno l'accesso
 let finded = false;
