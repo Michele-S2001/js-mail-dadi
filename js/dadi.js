@@ -2,9 +2,9 @@
 
 //memorizzare in due variabili distinte 1 numero generato automaticamente da 1 a 6
 
-randomUserNumber = Math.floor(Math.random() * (7 - 1) + 1);
+const randomUserNumber = Math.floor(Math.random() * (7 - 1) + 1);
 
-randomComputerNumber = Math.floor(Math.random() * (7 - 1) + 1);
+const randomComputerNumber = Math.floor(Math.random() * (7 - 1) + 1);
 
 // confronto i due numeri
 if (randomUserNumber > randomComputerNumber) {
