@@ -14,7 +14,6 @@ const emails = [
   "bofur@hotmail.com",
   "bombur@gmail.com"
 ];
-console.log(emails.length);
 
 // chiedo l'email dell'utente
 const userEmail = (prompt('Inserisci la tua email:')).toLowerCase();
@@ -30,7 +29,7 @@ for (let i = 0; i < emails.length; i++) {
   }
 }
 
-if (finded === true) {
+if (finded) {
   console.log('Accesso approvato');
 } else {
   console.log('Accesso negato');
